@@ -1,0 +1,332 @@
+.fontroboto {   font-family: 'Roboto Slab', serif;}
+
+h3.tieudechinh.fontroboto {
+    font-size: 36px;
+    font-weight: bold;
+}
+.fontoswarld{font-family: 'Oswald', sans-serif;}
+.fontdancing{font-family: 'Dancing Script', cursive;}
+.chu p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: white;
+    width: 625px;
+}
+/*TOP HEADER */
+.datban {
+    border-left: 1px solid #ddd;
+    float: left;
+    margin-left: 17px;
+    padding-left: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    color: #ddd;
+}
+
+.datban.openingtop.float-sm-right {
+    border-right: 1px solid #ddd;
+    padding-right: 26px;
+}
+
+.datban.openingtop.float-xs-right {
+    border-right: 1px solid #ddd;
+    padding-right: 26px;
+}
+
+.mangxh a:nth-child(1) {
+    padding-left: 0;
+}
+
+.mangxh a {
+    color: #dddddd;
+    font-size: 12px;
+    padding: 0 13px;
+}
+
+body {}
+
+.topheader {
+    background: #222222;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+} 
+/*END TOPHEADER*/
+/*BEGIN MENU & LOGO */
+
+
+a.nutslide.btn.btn-warning {
+    border-radius: 0;
+    width: 165px;
+    height: 50px;
+    color: black;
+    line-height: 50px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.chu {
+    position: absolute;
+    color: white;
+    margin-left: 14%;
+    background: url(images/icon1.png) no-repeat left top;
+    padding-top: 168px;
+    top: 58px;
+}
+
+.chu h2 {
+    font-size: 50px;
+}
+
+a.nav-link {
+    color: #777;
+    font-size: 14px;
+    margin-top: 43px;
+    padding: 0 15px;
+}
+
+.datbanmenu a.nav-link.btn.btn-warning {
+    border-radius: 0px;
+    font-size: 13px;
+    color: black;
+    width: 150px;
+    line-height: 44px;
+    text-align: center;
+    display: inline-block;
+    height: 44px;
+    padding: 0;
+    transform: translateY(-7px);
+}
+/*END MENU & LOGO*/
+ /*KHOI 3 DICH VU */
+
+a.readmore {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding-top: 29px;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 40px;
+}
+
+.badichvu h3 a {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.badichvu p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    text-align: center;
+}
+
+.badichvu {
+    padding-top: 121px;
+}
+ /*END KHOI 3 DICH VU */
+
+
+/*KHOI MENU */
+
+span.tieudephu {
+    font-weight: 700;
+    font-size: 38px;
+    color: #feb518;
+}
+
+.tieudekhoimenu .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tieudekhoimenu.text-xs-center {
+    display: table;
+    margin: auto;
+    height: 550px;
+}
+
+.khoimenu {}
+
+.khoimenu {
+    background: url(images/slide03.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+ /*END KHOI MENU */
+
+.thucdonct {}
+.thucdonct  .tieudect {
+    height:40px;
+    line-height: 40px;
+    background:brown;
+    margin-bottom: 120px;
+}
+.thucdonct  .noidungct {
+    height:400px;
+    position: relative;
+}
+.thucdonct  .noidungct .noidung {
+    height:400px;
+    border:1px solid gold;
+    position: absolute;
+    top:0px;
+
+    opacity:0;
+    visibility: hidden;
+
+}
+ /*HIEU UNG */
+
+
+ /*css cho hieu ung loc menu */
+ *{margin: 0; padding: 0;}
+
+.duoi {
+    color: #777;
+    font-size: 13px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 9px;
+}
+
+b.ten {
+    background: white;
+    transform: translateY(3px);
+    display: inline-block;
+    padding-right: 7px;
+}
+
+.tenmon .tren span {
+    display: inline-block;
+    background: #ffffff;
+    transform: translateY(3px);
+    padding-left: 5px;
+}
+
+.tenmon .tren span {}
+
+.tenmon .tren {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #333333;
+    border-bottom: 2px dotted #999999;
+}
+
+.noidungct  .row .row [class*=col-] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tagnew {
+    position: absolute;
+    top: 0;
+    background: #feb518;
+    font-size: 11px;
+    font-family: 'Roboto Slab', serif;
+    padding: 2px 7px;
+}
+
+.anhmon {
+    position: relative;
+    width: 100%;
+}
+
+.motmon {
+    height: 120px;
+}
+
+ /*HET HIEU UNG */
+/*XU LY GIAO DIEN DI DONG */
+@media (max-width:576px) {
+    *{}
+
+.tieudekhoimenu.text-xs-center {
+    height: 400px;
+}
+
+h3.tieudechinh.fontroboto {
+    font-size: 28px;
+}
+
+span.tieudephu.fontdancing {
+    font-size: 29px;
+}
+
+.badichvu {
+    padding-top: 21px;
+}
+    
+a.nutslide.fontoswarld.btn.btn-warning {
+    width: 117px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+}
+
+.chu p {
+    width: 348px;
+    font-size: 13px;
+    display: none;
+}
+
+.chu h2.fontoswarld {
+    font-size: 20px;
+}
+
+.chu {
+    padding: 0;
+    top: 22px;
+    background: none;
+}
+
+    a.navbar-brand.text-xs-center.text-sm-left img {
+        height: 80px;
+    }
+
+    .datbanmenu a.nav-link.btn.btn-warning {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+        border-bottom: 0px;
+    }
+
+    .nav a.nav-link {
+        text-align: center;
+        padding: 13px 0;
+        margin: 0;
+        display: block;
+        border-bottom: 1px solid gray;
+    }
+
+    .datban {
+        border: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-top: 1px dashed #5a5a5a;
+    }
+
+    .topheader {
+        height: auto;
+        padding-bottom: 9px;
+    }
+    .datban.openingtop.float-sm-right {
+    border-right:none;
+    padding-right: 0px;
+    }
+}
+
+/*HET GIAO DIEN DI DONG */
+
